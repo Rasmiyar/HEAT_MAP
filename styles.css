@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f9;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+p#description {
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  color: #555;
+}
+
+svg {
+  margin: 0 auto;
+  display: block;
+  background-color: #f9f9f9;
+}
+
+.cell {
+  stroke: #ccc;
+  stroke-width: 0.5;
+}
+
+#tooltip {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+#legend {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.legend-item {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border: 1px solid black;
+}
